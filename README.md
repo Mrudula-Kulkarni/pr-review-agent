@@ -103,7 +103,3 @@ See `.env.example` for all required variables. Never commit your real `.env` fil
 4. Secret: the value you set as `GITHUB_WEBHOOK_SECRET`
 5. Select **Pull requests** events only
 
-## Deployment
-
-- **Backend**: Deploy to [Railway](https://railway.app) — set all env vars in Railway's environment settings
-- **Frontend**: Deploy to [Vercel](https://vercel.com) — set `NEXT_PUBLIC_BACKEND_URL` to your Railway backend URL
